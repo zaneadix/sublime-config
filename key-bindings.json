@@ -1,4 +1,18 @@
 [
+	{ "keys" : ["alt+super+p"], "command": "autoprefixer"},
+
+	//open file in browser
+	{ "keys": ["ctrl+o"],
+		"command": "side_bar_open_in_browser" ,
+		"args":{"paths":[], "type":"testing"}
+	},
+
+	//move to end of line
+	{ "keys": ["super+."], "command": "move_to", "args": {"to": "eol", "extend": false} },
+
+	{ "keys": ["ctrl+alt+shift+f"], "command": "js_format", "context": [{"key": "selector", "operator": "equal", "operand": "source.javascript"}] },
+
+	//Use Emmet in Javascript / React
 	{
 	    "keys": ["shift+tab"], "command": "expand_abbreviation_by_tab", "context": [
 	        {
@@ -15,6 +29,7 @@
 	        }
 	    ]
 	},
+
 	{ "keys": ["tab"], "command": "next_field", "context":
 	    [
 	        { "key": "has_next_field", "operator": "equal", "operand": true }

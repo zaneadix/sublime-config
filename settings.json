@@ -1,0 +1,23 @@
+{
+	"always_show_minimap_viewport": false,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/tylto.tmTheme",
+	"draw_indent_guides": false,
+	"draw_minimap_border": false,
+	"findreplace_small": true,
+	"font_options":
+	[
+		"no_round"
+	],
+	"font_size": 14,
+	"hide_minimap": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"sidebar_large": true,
+	"tabs_small": true,
+	"theme": "HueAccentWater.sublime-theme",
+	"word_wrap": false
+}
